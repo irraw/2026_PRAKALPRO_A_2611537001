@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Pekan2/tugas2.py
 print ("=== SISTEM REGISTRASI PRAKTIKAN ALPRO 2026 ===")
 
 nama_7001 = input(str("Masukkan Nama Mahasiswa : "))
@@ -30,7 +29,7 @@ if skor_tes_awal_7001 >= batas_7001:
     hasil_7001 = True
 else:
     hasil_7001 = False
-=======
+
 print ("=== SISTEM REGISTRASI PRAKTIKAN ALPRO 2026 ===")
 
 nama_7001 = input(str("Masukkan Nama Mahasiswa : "))
@@ -62,5 +61,4 @@ if skor_tes_awal_7001 >= batas_7001:
     hasil_7001 = True
 else:
     hasil_7001 = False
->>>>>>> 1e7caa48e13342b298f54a63fb4b1ec091665e87:Pekan 2/tugas2.py
 print("Apakah dinyatakan lulus?:", hasil_7001, "|", "Tipe :", type (hasil_7001))
