@@ -51,11 +51,11 @@ if nomor_paket_7001 == 3:
 else: 
    if nomor_paket_7001 != 3:
     if umur_7001 <= 5:
-     print("status akses: pengunjung balita, wajib di damping1 orang dewasa di {nama_paket_7001}.")
+     print(f"status akses: pengunjung balita, wajib di damping1 orang dewasa di {nama_paket_7001}.")
     elif umur_7001 >= 60:
-     print("status akses: pengunjung senior, mendapat jalur khusus di {nama_paket_7001}")
+     print(f"status akses: pengunjung senior, mendapat jalur khusus di {nama_paket_7001}")
     else:
-      print("status akses: silahkan menikmati wahana {nama_paket_7001}")
+      print(f"status akses: silahkan menikmati wahana {nama_paket_7001}")
 
 subtotal_7001 = harga_satuan_7001 * jumlah_tiket_7001
 persen_diskon_7001 = 0
