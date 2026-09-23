@@ -39,24 +39,22 @@ match nomor_paket_7001:
 
 print("\n--- KELAYAKAN PENGGUNAAN WAHANA---")
 
-if nomor_paket_7001 == 3:
-    if umur_7001 >= 17 and sim_7001 == 'y' :
-     print("Anda sudah dewasa dan boleh mengendarai ATV sendiri.")
-    elif umur_7001 >= 17 and sim_7001!= 'y' :
-     print("Anda sudah dewasa tetapi tidak boleh bawa motor ATV (wajib didampingi instruktur)")
-    elif umur_7001 < 17 and sim_7001 == 'y' :
-     print("Identitas tidak valid: Belum cukup umur memiliki SIM")    
-    else:
-       print("Anda belum cukup umur dan tidak boleh bawa motor ATV")
-else: 
-   if nomor_paket_7001 != 3:
-    if umur_7001 <= 5:
-     print(f"status akses: pengunjung balita, wajib di damping1 orang dewasa di {nama_paket_7001}.")
-    elif umur_7001 >= 60:
-     print(f"status akses: pengunjung senior, mendapat jalur khusus di {nama_paket_7001}")
-    else:
-      print(f"status akses: silahkan menikmati wahana {nama_paket_7001}")
+if nomor_paket_7001 == 3 and umur_7001 >= 17 and sim_7001 == 'y':
+    print("Anda sudah dewasa dan boleh mengendarai ATV sendiri.")
+elif nomor_paket_7001 == 3 and umur_7001 >= 17 and sim_7001 != 'y':
+    print("Anda sudah dewasa tetapi tidak boleh bawa motor ATV (wajib didampingi instruktur)")
+elif nomor_paket_7001 == 3 and umur_7001 < 17 and sim_7001 == 'y':
+    print("Identitas tidak valid: Belum cukup umur memiliki SIM")
+elif nomor_paket_7001 == 3:
+    print("Anda belum cukup umur dan tidak boleh bawa motor ATV")
+elif nomor_paket_7001 != 3 and umur_7001 <= 5:
+    print(f"status akses: pengunjung balita, wajib di damping1 orang dewasa di {nama_paket_7001}.")
+elif nomor_paket_7001 != 3 and umur_7001 >= 60:
+    print(f"status akses: pengunjung senior, mendapat jalur khusus di {nama_paket_7001}")
+else:
+    print(f"status akses: silahkan menikmati wahana {nama_paket_7001}")
 
+    
 subtotal_7001 = harga_satuan_7001 * jumlah_tiket_7001
 persen_diskon_7001 = 0
 
