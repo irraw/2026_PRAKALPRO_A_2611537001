@@ -3,11 +3,11 @@
 tinggi_7001 = int(input("masukan tinggi pola: "))
 
 # baris spasi
-for i in range (1, tinggi_7001 + 1) :
-    for j in range(tinggi_7001 - i) :
+for i_7001 in range (1, tinggi_7001 + 1) :
+    for j_7001 in range(tinggi_7001 - i_7001) :
         print(" ", end="")
 
 # baris titik
-    for a in range(i) :
+    for a in range(i_7001) :
         print("* ", end="")
     print()

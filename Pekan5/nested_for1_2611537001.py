@@ -3,6 +3,6 @@
 
 batas_7001 = int(input("masukan nilai batas: "))
 for line in range (1, batas_7001 + 1) :
-    for j in range(1, (-1 * line + batas_7001) + 1):
+    for j_7001 in range(1, (-1 * line + batas_7001) + 1):
         print (".", end=" ")
     print(line)

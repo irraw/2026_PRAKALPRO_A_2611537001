@@ -3,5 +3,5 @@
 
 ulang_7001 = int(input("masukan jumlah perulangan: "))
 
-for i in range(ulang_7001) :
-    print(f"perulangan ke -{i}")
+for i_7001 in range(ulang_7001) :
+    print(f"perulangan ke -{i_7001}")
