@@ -2,8 +2,8 @@
 # NIM : 2611537001
 # question 6
 
-full_name = input("nama: ")
-nim = input("NIM: ")
+full_name = "Shaira Kezia Pratiwi"
+nim = "2611537001"
 
 clean = full_name.strip() + " " + nim[:-3]
 space = clean.find(" ")
